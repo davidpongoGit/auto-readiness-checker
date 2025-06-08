@@ -27,6 +27,9 @@ await scan(page);
 
 
 ## 📂 Output
-
+```
 auto-readiness-report/readiness-dashboard.html – visual report
+```
+```
 auto-readiness-report/readiness-dashboard.json – structured report
+```
