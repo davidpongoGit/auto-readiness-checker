@@ -15,10 +15,15 @@
 npm install auto-readiness-checker
 
 ## 🧪 How to use (Playwright only)
+Import the neccesary configuration.
+```
+const { scan } = require('auto-readiness-checker');
+```
 
-Import <const { scan } = require('auto-readiness-checker');>
-
-Use <await scan(page);> in your test to run the readiness checker. 
+In your test,  run the utility to start the readiness checker. Note: Remember to login first to any sites before running the checker.
+```
+await scan(page);
+```
 
 
 ## 📂 Output
