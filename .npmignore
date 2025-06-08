@@ -134,3 +134,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore test files and dev folders
+/tests
+/.vscode
+/node_modules
+/auto-readiness-report
+*.log
+.DS_Store
+report.html
+report.json
+*.spec.js

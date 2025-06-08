@@ -1,19 +1,29 @@
 {
   "name": "auto-readiness-checker",
   "version": "1.0.0",
-  "description": "Check web app is ready for test automation by fully checking the frontend DOM for automation readiness.",
+  "description": "Scan web apps for automation readiness by detecting missing or duplicate selectors, for use with Playwright or Cypress.",
   "main": "index.js",
+  "type": "commonjs",
+  "files": [
+    "index.js",
+    "src/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidpongoGit/auto-readiness-checker.git"
-  },
+  "keywords": [
+    "automation",
+    "testing",
+    "cypress",
+    "playwright",
+    "selectors",
+    "readiness",
+    "web crawler"
+  ],
   "author": "David Pongo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/davidpongoGit/auto-readiness-checker/issues"
-  },
-  "homepage": "https://github.com/davidpongoGit/auto-readiness-checker#readme"
+  "dependencies": {
+    "playwright": "^1.52.0",
+    "open": "^10.1.2"
+  }
 }
